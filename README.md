@@ -48,7 +48,7 @@ Stript Payment:
 
 ![Screenshot 2024-12-02 001632](https://github.com/user-attachments/assets/744074c7-8eae-4907-8bb2-f22a3646144f)
 
-Order Page(After pay with cash):
+Order Page:
 
 ![Screenshot 2024-12-02 001551](https://github.com/user-attachments/assets/c9de6a33-7fc5-4b58-a649-bfa2aa5311f8)
 
