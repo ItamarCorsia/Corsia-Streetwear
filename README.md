@@ -1,3 +1,13 @@
+Corsia Clothing - E-commerce Website
+This project is a full-stack e-commerce application designed to provide an interactive shopping experience for users and administrative tools for managing the website. It consists of a frontend, backend, and admin panel for streamlined product and order management.
+
+Key Features
+Admin Panel
+Product Management: Admin can add new products, view the list of products currently available on the website, and edit or delete them as needed.
+Order Management: Admin can view, update, and manage customer orders effectively.
+Authentication: Secured access for admins through an adminAuth middleware.
+
+
 Home Page:
 
 ![Screenshot 2024-12-02 000857](https://github.com/user-attachments/assets/c8bb8c71-e7a8-4480-9bba-2288fa0940f7)
