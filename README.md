@@ -2,7 +2,6 @@
 This project is a full-stack e-commerce application designed to provide an interactive shopping experience for users and administrative tools for managing the website. It consists of a **frontend**, **backend**, and **admin** panel for streamlined product and order management.
 
 
-
 ## Key Features
 ### Admin Panel
 - Product Management: Admin can add new products, view the list of products currently available on the website, and edit or delete them as needed.
