@@ -41,39 +41,44 @@ The user-facing frontend provides a rich, responsive experience for browsing and
 12. Main: Acts as the main layout or routing controller.
 13. ShopContext: Context provider for managing global states like cart, authentication, and user session.
 
-Backend
+### Backend
 The backend is built with Express.js and serves as the API for the application. It handles user authentication, product management, and order processing.
 
-Controllers:
-CartController: Manages operations related to the shopping cart.
-OrderController: Handles order creation, updates, and retrieval.
-ProductController: Manages product data (CRUD operations).
-UserController: Handles user registration, login, and authentication.
-Middlewares:
-adminAuth: Protects admin-specific routes to ensure only authenticated admins can access them.
-auth: Secures user routes by verifying authentication tokens.
-multer: Middleware for handling file uploads, such as product images.
-Models:
-OrderModel: Defines the schema for storing and managing orders.
-ProductModel: Represents products in the database.
-UserModel: Manages user data including credentials and roles.
-Routes:
-CartRoute: Endpoints for adding, updating, and removing items in the cart.
-OrderRoute: Endpoints for creating and managing orders.
-ProductRoute: Endpoints for managing product data.
-UserRoute: Handles user-related functionalities like login and registration.
-Server:
+#### Controllers:
+1. CartController: Manages operations related to the shopping cart.
+2. OrderController: Handles order creation, updates, and retrieval.
+3. ProductController: Manages product data (CRUD operations).
+4. UserController: Handles user registration, login, and authentication.
+
+#### Middlewares:
+1. adminAuth: Protects admin-specific routes to ensure only authenticated admins can access them.
+2. auth: Secures user routes by verifying authentication tokens.
+3. multer: Middleware for handling file uploads, such as product images.
+
+#### Models:
+1. OrderModel: Defines the schema for storing and managing orders.
+2. ProductModel: Represents products in the database.
+3. UserModel: Manages user data including credentials and roles.
+
+#### Routes:
+1. CartRoute: Endpoints for adding, updating, and removing items in the cart.
+2. OrderRoute: Endpoints for creating and managing orders.
+3. ProductRoute: Endpoints for managing product data.
+4. UserRoute: Handles user-related functionalities like login and registration.
+
+#### Server:
 The entry point of the backend, which initializes middleware, routes, and database connections, and starts the Express server.
 
-Technologies Used
-Frontend:
-React.js: For building the user interface.
-Context API: For managing global state like authentication and cart data.
-Backend:
-Node.js with Express.js: For building the RESTful API.
-MongoDB: For storing product, user, and order data.
-Multer: For handling image uploads.
-JSON Web Tokens (JWT): For authentication.
+#### Technologies Used
+##### Frontend:
+1. React.js: For building the user interface.
+2. Context API: For managing global state like authentication and cart data.
+
+##### Backend:
+1. Node.js with Express.js: For building the RESTful API.
+2. MongoDB: For storing product, user, and order data.
+3. Multer: For handling image uploads.
+4. JSON Web Tokens (JWT): For authentication.
 
 Home Page:
 
